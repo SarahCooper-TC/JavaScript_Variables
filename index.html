@@ -3,6 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+          background-color: rgb(35, 141, 254);
+          color: rgb(29, 77, 29);
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+      li:hover {
+          color:aliceblue;
+          font-size:25px;
+      }
+      h1{
+        font-size:20px;
+        border:2px rgb(29, 77, 29) solid;
+        padding: 3px;
+        background-color: aliceblue;
+      }
+      h1:hover {
+      animation-name: flash;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+      }
+      @keyframes flash {
+        from {background-color:aliceblue;
+        font-size:30px;}
+        to {background-color:aquamarine;
+        font-size:20px;}
+      }
+      ul {
+        border:solid 3px aquamarine;
+      }
+
+    </style>
     <title>JavaScript Variables</title>
   </head>
   <body>
